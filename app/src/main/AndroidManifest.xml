@@ -157,15 +157,12 @@
         <!-- 贝塞尔曲线的购物车动画 starting -->
         <activity
             android:name=".object_animator_test.ObjectAnimatorBezierActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-
-        </activity>
-        <!--斜线进度条 带有小雨点 starting-->
-        <activity android:name=".canvas_test.ZObliqueProgressActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            >
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <!-- 斜线进度条 带有小雨点 starting -->
+        <activity
+            android:name=".canvas_test.ZObliqueProgressActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity android:name=".textView.TextViewActivity"></activity>
     </application>
 
 </manifest>
