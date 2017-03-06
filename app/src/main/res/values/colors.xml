@@ -21,5 +21,6 @@
     <!--进度调颜色设置-->
 
 
+    <color name="orders_number">#666666</color>
 
 </resources>

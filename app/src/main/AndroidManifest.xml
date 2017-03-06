@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="demo.minifly.com.demoall">
 
+    <!-- 热修复的时候要的一个权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -157,12 +161,21 @@
         <!-- 贝塞尔曲线的购物车动画 starting -->
         <activity
             android:name=".object_animator_test.ObjectAnimatorBezierActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <!-- 斜线进度条 带有小雨点 starting -->
         <activity
             android:name=".canvas_test.ZObliqueProgressActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".textView.TextViewActivity" />
+        <!-- 热修复框架测试 starting -->
+        <activity
+            android:name=".android_hot_fix.AndroidHotfixActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
-        <activity android:name=".textView.TextViewActivity"></activity>
+        <!-- 热修复框架测试 ending -->
+        <activity android:name=".project_testhouse.YituotuoEdittextActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
