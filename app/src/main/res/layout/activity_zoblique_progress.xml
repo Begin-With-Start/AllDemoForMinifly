@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_zoblique_progress"
     android:layout_width="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
     android:layout_height="match_parent">
     
     <demo.minifly.com.demoall.canvas_test.ObliqueProgressbar

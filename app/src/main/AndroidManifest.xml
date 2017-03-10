@@ -18,7 +18,7 @@
         <activity
             android:name=".listview_test.ListViewActivity"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/DeepTheme" />
         <!-- scrollview 的拖动粘性事件 overdrag -->
         <activity
             android:name=".scrollview_test.ScrollActivity"
@@ -26,71 +26,84 @@
         <!-- view 的七种拖动view的方式。 -->
         <activity
             android:name=".pull_moveview_test.PullMoveviewActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- titleview 的设置方式。 -->
         <activity
             android:name=".ui_test.MainActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
 
         <!-- canvas 绘图相关 -->
         <activity
             android:name=".canvas_test.ZCanvasActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
 
         <!-- canvas 绘图相关 -->
         <activity
             android:name=".rsatest.CanvasActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画 -->
         <activity
             android:name=".object_animator_test.ObjectAnimatorTest"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画 自定义问题。 -->
         <activity
             android:name=".object_animator_test.ObjectAnimatorOwnTest"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画 自定义问题。 -->
         <activity
             android:name=".object_animator_test.ObjectAnimatorOwnColorTest"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画 动画集合相关 -->
         <activity
             android:name=".object_animator_test.PropertyValuesHolderAnimatorTest"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 自定义的动画 -->
         <activity
             android:name=".user_defined_animator.OwnAnimatorActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 自定义的动画 三维开门的效果 -->
         <activity
             android:name=".user_defined_animator.OwnAnimatorActivity2"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
 
         <!-- recycleview的自定义问题 -->
         <activity
             android:name=".recycleview_test.Activity3"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画 动画集合相关 -->
         <!-- 布局动画问题 在布局中添加这个设置之后添加view会有逐渐显示的过渡效果 -->
         <activity
             android:name=".layout_animation.LayoutAnimationActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 布局动画问题 -->
         <!-- 属性动画的值动画 问题 -->
         <activity
             android:name=".object_animator_test.ValueAnimatorTextActivity"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/DeepTheme" />
         <!-- 属性动画的值动画 问题 -->
         <activity
             android:name=".ActivityAnimation.ActivityAnimation"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/DeepTheme" />
         <activity
             android:name=".ActivityAnimation.ActivityAnimation2"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/DeepTheme" />
         <!-- 有界波纹与无界波纹 -->
         <activity
             android:name=".RippleShow.MyRippleShowActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/DeepTheme" />
 
         <!-- 刮刮乐效果 -->
         <activity
@@ -170,12 +183,15 @@
         <!-- 热修复框架测试 starting -->
         <activity
             android:name=".android_hot_fix.AndroidHotfixActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <!-- 热修复框架测试 ending -->
-        <activity android:name=".project_testhouse.YituotuoEdittextActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-
-        </activity>
+        <activity
+            android:name=".project_testhouse.YituotuoEdittextActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ActivityAnimation.PhotoFragmentActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".request_demo.BaseActivity"></activity>
     </application>
 
 </manifest>
