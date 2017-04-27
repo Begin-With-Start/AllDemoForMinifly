@@ -190,8 +190,14 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".ActivityAnimation.PhotoFragmentActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".request_demo.BaseActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".request_demo.BaseActivity" />
+        <activity android:name=".intent_test.Intent1Activity" />
+        <activity android:name=".intent_test.Intent2Activity" />
+        <activity
+            android:name=".constraintlayout_test.ConstraintActivity"
+            android:label="@string/title_activity_constraint"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
