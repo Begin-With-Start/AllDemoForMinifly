@@ -194,6 +194,9 @@
         <activity android:name=".request_demo.BaseActivity" />
         <activity android:name=".intent_test.Intent1Activity" />
         <activity android:name=".intent_test.Intent2Activity" />
+        <activity android:name=".project_progress_new.ProjectProgressActivity"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".constraintlayout_test.ConstraintActivity"
             android:label="@string/title_activity_constraint"
